@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script type="text/javascript" src="validaciones_usuarios.js"></script>
+	<style type="text/css">
+		.error{
+			color: red;
+			font-size: 8px;
+		}
+	</style>
+</head>
+	<body>
+
+		<form id="formulario001" method="POST" action="" onsubmit="return validarCamposObligatorios();">
+		<label>Cedula</label>
+		<input type="text" value="" name="nombredelacaja">
+		<span id="mensajecedula" class="error"></span>	
+		<br>
+		<label>Nombres</label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Apellidos</label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Direccion</label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Telefonos</label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Fecha de Nacimiento<label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Correo Electronico</label>
+		<input type="text" name="nombredelacaja">
+		<br>
+		<label>Contasena</label>
+		<input type="password" name="nombredelacaja">
+		<input  id="boton" type="submit" value="Enviar">
+		
+		</form>
+</body>
+</html>
